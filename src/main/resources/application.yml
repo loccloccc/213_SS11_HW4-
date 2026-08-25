@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: PTIT_CNTT1_IT213_Session11_Bai4
+  cache:
+    type: simple
+
+langfuse:
+  prompt-name: rikkeipay-transfer-prompt
+  cache-ttl-seconds: 60
+  force-offline-mode: false
